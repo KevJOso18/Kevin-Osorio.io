@@ -1,0 +1,18 @@
+name: "SRI student"
+output_dir: "."
+navbar:
+  title: "SRI student"
+  left:
+    - text: "Projects"
+      href: project.html
+    - text: "Contact"
+      href: contact.html
+
+  right:
+    - icon: fa-envelope fa-lg
+      href: contact.html
+
+output:
+  html_document:
+      theme: paper
+      css: 'styles.css'
